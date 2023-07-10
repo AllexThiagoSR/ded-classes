@@ -15,7 +15,7 @@ export default abstract class Race {
     return this._name;
   }
 
-  public static createdRacesInstances = () => { 
+  public static createdRacesInstances = (): number => { 
     throw new Error('Not implemented'); 
   };
 
